@@ -2990,6 +2990,20 @@ ul.pa-submenu-two {
 
 /* Estilos agregados */
 
+.section1{
+    margin-top: 20px;
+}
+
+.section1 .img-prostata{
+    margin-top: -20px;
+    height: 150px;
+    width: 150px;
+}
+
+.section1 p{
+    font-size: 15px;
+}
+
 .pa-prostatitis{
     margin-top: 40px;
 }

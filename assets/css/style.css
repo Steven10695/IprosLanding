@@ -109,7 +109,7 @@ li{
     height: 45px;
     line-height: 46px;
     border: none;
-    margin: auto 0;
+    margin: 0;
     /**border-radius: 50px;*/
     text-transform: uppercase;
     outline: none;
@@ -118,7 +118,6 @@ li{
     cursor: pointer;
     /**border: 2px solid #6caaa8;*/
     transition: 0.3s;
-    display: inline-block;
     margin-top: 20px;
     
 }
@@ -2990,6 +2989,10 @@ ul.pa-submenu-two {
 
 /* Estilos agregados */
 
+.btn-form{
+    text-align: center;
+}
+
 .section1{
     margin-top: 20px;
 }
@@ -3001,7 +3004,7 @@ ul.pa-submenu-two {
 }
 
 .section1 p{
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .pa-prostatitis{
@@ -3019,3 +3022,98 @@ ul.pa-submenu-two {
     list-style: circle;
     margin-left: 15px;
 }
+
+
+.cartas .carta img{
+    width: 110px;
+    height: 110px;
+}
+
+.carta{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    
+    border: 2px solid #6caaa8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartas .carta h3{
+    margin-top: 10px;
+    font-size: 16px;
+}
+/**
+figure{
+    width: 32%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+figcaption{
+    text-align: center;
+}
+
+figcaption h3{
+    color: #002128;
+    margin: 10px 0;
+}
+
+.hover-animation{
+    position: relative;
+    height: 350px;
+    width: 350px;
+    margin: 10% auto 0;
+    color: #fff;
+}
+
+.hover-animation img{
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    left: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+.hover-animation img.img-front:hover{
+    opacity: 0;
+    cursor: pointer;
+}
+**/
+
+.section3{
+    height: 675px;
+    position: relative;
+    overflow: hidden;
+    background-image: url('../images/banner-2.png');
+    background-repeat: no-repeat;
+}
+
+.texto-section3{
+    margin-top: 140px;
+}
+
+.section3 h3{
+    color: #6caaa8;
+    line-height: 35px;
+    font-size: 50px;
+}
+
+.section3 p{
+    color: #fff;
+    font-size: 30px;
+    line-height: 15px;
+}
+
+.section3 span{
+    font-weight: 600;
+    
+}
+

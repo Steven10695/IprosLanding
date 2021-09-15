@@ -74,7 +74,7 @@ li{
     color: #111111 !important;
     font-weight: 500;
 }
-.pa-heading {
+.pa-heading, .pa-heading2{
     text-align: center;
     margin-bottom: 46px;
 }
@@ -783,7 +783,7 @@ p.pa-product-rating {
     color: #fff;
 }
 .pa-copyright {
-    background: #6caaa8;
+    background: #002128;
     padding: 12px 0;
     text-align: center;
 }
@@ -1353,7 +1353,7 @@ p.pa-product-rating {
     font-size: 14px;
     color: #6caaa8;
 }
-.pa-related-product .pa-heading {
+.pa-related-product .pa-heading .pa-heading2{
     text-align: left;
     margin-bottom: 0;
     margin-top: 18px;
@@ -2116,13 +2116,13 @@ ul.pa-submenu-two {
 /* medi icon end */
 /* footer start */
 .pa-footer-three {
-    background: url(../images/banner-shape.png)#6caaa8;
+    background: url(../images/banner-shape.png)#002128;
     background-size: cover;
     padding: 72px 0 42px;
     background-position: center;
 }
 .pa-copyright.pa-copyright-two {
-    background: #589a98;
+    background: #002128;
 }
 /* footer end */
 /* index three end */
@@ -3126,6 +3126,7 @@ figcaption h3{
     background-image: url(../images/fondo-onda.png);
     background-size: contain;
     background-position: bottom;
+    z-index: 0;
 }
 
 
@@ -3145,3 +3146,44 @@ figcaption h3{
     color: #002128;
     font-weight: 500;
 }
+
+.section5{
+    margin-top: -150px;
+}
+
+.section5 img{
+    z-index: 1!important;
+    
+
+}
+
+.section6{
+    height: 300px;
+}
+
+.section6 .texto-section6 h3, p{
+    color: #002128;
+}
+
+.section6 .texto-section6 h3 span{
+    color: #6caaa8;
+}
+
+.pa-heading2 h3 {
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    font-size: 32px;
+    color: #002128;
+    line-height: 15px;
+}
+
+.pa-heading2 h3 span{
+    color: #6caaa8;
+}
+.pa-heading2 h5 {
+    margin-bottom: 0;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #6caaa8;
+}
+

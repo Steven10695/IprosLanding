@@ -248,9 +248,9 @@ $(".submitForm").on('click', function() {
             if(resp == 1){
                 targetForm.find('input').val('');
                 targetForm.find('textarea').val('');
-                errroTarget.html('<p style="color:green;">Mail has been sent successfully.</p>');
+                errroTarget.html('<p style="color:green;">El correo se ha enviado con éxito.</p>');
             }else{
-                errroTarget.html('<p style="color:red;">Something went wrong please try again latter.</p>');
+                errroTarget.html('<p style="color:red;">Algo salió mal, inténtalo de nuevo más tarde.</p>');
             }
         });
     }
